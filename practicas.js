@@ -65,6 +65,10 @@ console.log("Nombre: ", nombre);
 })();
 
 function fecha(){
-    document.getElementById("fecha").innerHTML= new Date();
+    var fecha;
+    fecha =  new Date();
+    document.getElementById("fecha1").innerHTML=fecha;
+    
+    document.getElementById("fecha2").innerHTML= fecha.getDate()+"-"+fecha.getMonth()+"-"+fecha.getFullYear()+"  "+fecha.getHours()+":"+fecha.getMinutes()+":"+fecha.getSeconds();
     console.log(new Date());
 }
