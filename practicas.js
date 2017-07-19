@@ -61,5 +61,10 @@ console.log("Nombre: ", nombre);
         }
     }
     datoEudy.MisDatos();
-    
+    setInterval(fecha,1000);
 })();
+
+function fecha(){
+    document.getElementById("fecha").innerHTML= new Date();
+    console.log(new Date());
+}
