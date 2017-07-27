@@ -154,7 +154,7 @@ console.log("Nombre: ", nombre);
     pract.practica2();
     pract.practica3();
     //datoEudy.MisDatos();
-    //setInterval(fecha,1000);
+    setInterval(fecha,1000);
 })();
 
 function fecha(){
