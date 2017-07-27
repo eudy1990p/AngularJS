@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Javascript</title>
+        <script type="text/javascript">
+            "use strict";
+            p();
+            function p(){
+                try{
+                    var z =90;
+                    //console.log("ok");
+                }catch(error){
+                    console.log(error.name);
+                }
+            }
+            
+            function datos(){
+                this.nombre = "Eudy";
+                this.apellido = "Arias";
+                this.caminar = function(){
+                    console.log("caminando");
+                };
+                this.parar = function(){
+                    console.log("stop");
+                };
+            
+            }
+            var persona = new datos();
+            persona.caminar();
+        </script>
+    </head>
+    <body>
+        
+    </body>
+
+</html>
